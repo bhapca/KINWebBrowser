@@ -374,11 +374,6 @@ static void *KINWebBrowserContext = &KINWebBrowserContext;
     }
     
     [self setToolbarItems:barButtonItems animated:YES];
-    
-    self.tintColor = self.tintColor;
-    self.barTintColor = self.barTintColor;
-    
-    
 }
 
 - (void)setupToolbarItems {

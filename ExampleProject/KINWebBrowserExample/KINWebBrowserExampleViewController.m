@@ -59,12 +59,12 @@ static NSString *const defaultAddress = @"https://www.apple.com";
     self.navigationItem.title = @"";
     
     [self.navigationController setToolbarHidden:YES];
-    [self.navigationController setNavigationBarHidden:YES];
+    [self.navigationController setNavigationBarHidden:NO];
     
     self.navigationController.navigationBar.translucent = YES;
     self.navigationController.toolbar.translucent = YES;
     
-
+    self.navigationController.navigationBar.barTintColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning
